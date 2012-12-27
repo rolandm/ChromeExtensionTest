@@ -1,0 +1,13 @@
+{
+ "name": "Rolands ChromeExt Sample",
+ "version": "0.2",
+ "permissions": ["experimental"],
+ "minimum_chrome_version": "23",
+ "manifest_version": 2,
+ "description": "Roland's first Chrome extensions - expect something perfect by 100% :-)",
+ "app": {
+   "background": {
+     "scripts": ["ext_main.js"]
+   }
+ }
+}
